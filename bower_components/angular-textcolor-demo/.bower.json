@@ -1,0 +1,35 @@
+{
+  "name": "angular-textcolor-demo",
+  "authors": [
+    "juniorgerdet@gmail.com"
+  ],
+  "description": "Demo",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0",
+    "angular-animate": "~1.2.0",
+    "angular-sanitize": "~1.2.0",
+    "angular-touch": "~1.2.0",
+    "angular-route": "~1.2.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/juniorgerdet/angular-textColor",
+  "_release": "865d50b883",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "865d50b883732c3e3552289a2e75f7920b6afa1f"
+  },
+  "_source": "https://github.com/juniorgerdet/angular-textColor.git",
+  "_target": "*",
+  "_originalSource": "angular-textcolor",
+  "_direct": true
+}
