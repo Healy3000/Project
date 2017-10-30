@@ -1,0 +1,42 @@
+<html data-ng-app="">
+		<head>
+			<title> The Monkees - Home Page  </title>
+				<link rel="stylesheet" href="static/css/styles.css">
+					<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+					<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+		</head>
+	<body >
+			<div class = "navBar">
+			<ul>
+				  <li><a href="index.html">Home </a></li>
+				  <li><a href="band.html">Band	</a></li>
+				  <li><a href="photo.html">Photo </a></li>
+				  <li><a href="booking.html"> Bookings</a></li>  
+			</ul>
+		  </div>
+		<div class = "float">
+			<img src="static/images/head4.jpg" width = "100" height = "100">
+			<img src="static/images/head.jpg" width = "100" height = "100"> 
+			<img src="static/images/head3.jpg" width = "100" height = "100">
+			<img src="static/images/head2.jpg" width = "100" height = "100">
+		</div>
+				<div data-ng-init="customers = [{name:'Peter Tork' , info:'Peter Tork, was known as Peter Halsten Thorkelson, born on the 13 February  1942. He is an American musician and actor, best known as the keyboardist and bass guitarist of the Monkees.'},  
+					{name:' Davy Jones', info:'David Thomas, was knwon as Davy Jones and was born on the 30 December 1945. For the band he was was singer-songwriter, musician, actor, but most famous for starring in the TV series of the same name.'}, 
+					{name:' Michael Nesmith' , info:'Robert Michael Nesmith, known as Michael Nesmith. He was born 30 December 1942. He is an American musician, songwriter, actor, producer, novelist, businessman, and philanthropist, but  best known as a member of the pop rock band the Monkees.'}, 
+					{name:' Micky Dolenz', info:'George Michael, known as Micky Dolenz was born on the 8th March 1945. He was an American actor, musician, and theater director, but best known as a vocalist and drummer of the 1960s pop/rock band the Monkees.'}]">
+						<p>Band Memebers Name: (Peter Tork, Davy Jones, Micky Dolenz or Michael Nesmith)</p> 
+							<input type = "text" data-ng-model="name" /> 
+								<br/>
+									<ul>
+										<li data-ng-repeat="cust in customers | filter:name" >{{cust.name}} - {{cust.info}} <br/> </li>
+									</ul>
+				</div>
+					<br/>		 
+					<h1> The Monkees - First Video</h1>
+					<h2> The first of many videos, the first single.<h2>
+						<video width="320" height="240">
+						  <source src="static/audio/TheMonkees.mp4" type="video/mp4">
+						  <source src="static/audio/TheMonkees.ogg" type="video/ogg">
+						</video>
+	</body>
+</html>

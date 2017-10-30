@@ -1,0 +1,131 @@
+#content {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			display: inline-block;
+			width: 925px;
+			margin-left:250px;
+			padding-left: 40px; /*add padding to center text using longhand method*/
+			padding-right: 30px;
+			border: solid 5px #FFFFFF;
+			border-radius: 1px;
+		}
+		
+body {
+		background: red; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left,rgba(255,0,0,1),rgba(255,165,0,1));
+		background: -o-linear-gradient(right,rgba(255,0,0,1),rgba(255,165,0,1)); 
+		background: -moz-linear-gradient(right,rgba(255,0,0,1),rgba(255,165,0,1)); 
+		background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,165,0,1)); 
+	}
+
+.wText {
+		color:white;
+		}
+
+h1, h2, h3, h4 {
+	color: white;file:///C:/Users/Edward/Final.Project/Images/head4.jpg
+	}
+	
+	p{
+			color: white;	
+	}
+
+ul {
+	text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #white;
+	display: inline-block;
+	list-style-type: none;
+}
+
+li {
+	display:inline-block;
+  color:white;
+	    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+	float:left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: red;
+	color: white;
+	float:left;	
+}
+
+/* Change the link color when hovering */
+a:hover {
+    background-color: grey;
+}
+
+/* keep the navbar from being unlined */
+a:link {
+    text-decoration: none;
+}
+
+.navBar  {
+    border: 2px solid white;
+    border-radius: 5px;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #white;
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	color:black;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+	color:white;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+   .signupbtn {
+        width: 100%;
+    }
+}
+
+div.float img {
+	float:right;
+}
+
+
+
