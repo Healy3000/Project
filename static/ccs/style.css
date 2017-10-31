@@ -89,14 +89,18 @@ a:link {
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-	color:black;
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="text"]:focus {
+  outline: none;
 }
 
 /* Set a style for all buttons */
@@ -126,6 +130,4 @@ button {
 div.float img {
 	float:right;
 }
-
-
 
