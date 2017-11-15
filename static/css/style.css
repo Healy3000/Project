@@ -1,0 +1,86 @@
+#content {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			display: inline-block;
+			width: 900px;
+			margin-left:50px;
+			padding-left: 10px; /*add padding to center text using longhand method*/
+			padding-right: 10px;
+			
+		}
+body {
+		background: red; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left,rgba(255,0,0,1),rgba(255,16,0,1));
+		background: -o-linear-gradient(right,rgba(255,0,0,1),rgba(255,16,0,1)); 
+		background: -moz-linear-gradient(right,rgba(255,0,0,1),rgba(255,16,0,1)); 
+		background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,16,0,1)); 
+	}
+
+.wText {
+		color:white;
+		}
+
+h1, h2, h3, h4 {
+	color: white;
+	}
+	
+	p{
+			color: white;	
+			margin-left: 20px;
+	}
+
+ul {
+	
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+	display:inline-block;
+  	color:white;
+	
+}
+
+a {
+    display: block;
+    padding: 15px;
+    color: white;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+.navBar  {
+   
+
+    padding: 15;
+    list-style-type: none;
+    text-align: left;
+    background: black;
+	
+}
+
+/* Change the link color when hovering */
+a:hover {
+    background-color: grey;
+}
+
+/* keep the navbar from being unlined */
+a:link {
+    text-decoration: none;
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
